@@ -1,0 +1,45 @@
+{
+  "name": "e-securities",
+  "version": "1.0.0",
+  "description": "E–Securities Limited is one of the leading Fully online Trading brokerage house in Bangladesh with Dhaka Stock Exchange Limited",
+  "main": "app.js",
+  "author": "asad.santo.10",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "yarn add babel-eslint -D eslint -D eslint-config-airbnb -D eslint-config-airbnb-base -D eslint-config-prettier -D eslint-plugin-import -D eslint-plugin-jsx-a11y -D eslint-plugin-prettier -D eslint-plugin-react -D eslint-plugin-react-hooks -D install-peerdeps -D prettier -D"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-fileupload": "^1.2.1",
+    "express-minify-html": "^0.12.0",
+    "just-validate": "^1.5.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.12",
+    "random-number": "^0.0.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "install-peerdeps": "^3.0.3",
+    "laravel-mix": "^6.0.28",
+    "prettier": "^2.3.2"
+  }
+}
